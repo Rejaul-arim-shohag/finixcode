@@ -1,5 +1,4 @@
 import EventActions from "./EventActions";
-import TabSection from "./TabSection";
 
 export default function EventCard() {
     return (
@@ -16,8 +15,6 @@ export default function EventCard() {
                 <p className="text-gray-700 mt-1">
                     Mar 14 from 7:30 PM - 9:30 PM
                 </p>
-
-                <TabSection />
             </div>
 
             {/* Right section - col-span-1 */}

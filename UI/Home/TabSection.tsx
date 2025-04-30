@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Players from "./Players";
+import InformationDetails from "./InformationDetails";
 
 const tabs = [
     { label: "Info", content: "Welcome to the Home tab!" },
@@ -36,6 +37,7 @@ export default function TabSection() {
             {/* <div style={{ padding: "20px", border: "1px solid #ccc" }}>
                 {tabs[activeTab].content}
             </div> */}
+            <InformationDetails />
             <Players />
         </div>
     );

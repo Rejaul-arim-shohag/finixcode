@@ -3,7 +3,7 @@ const EventActions = () => {
     return (
         <div className="flex items-center justify-end space-x-3">
             {/* Share Button */}
-            <button className="w-10 h-10 rounded-full bg-white border border-gray-200 flex items-center justify-center shadow-sm">
+            {/* <button className="w-10 h-10 rounded-full bg-white border border-gray-200 flex items-center justify-center shadow-sm">
                 <svg
                     width="26"
                     height="27"
@@ -19,10 +19,10 @@ const EventActions = () => {
                         stroke-linejoin="round"
                     />
                 </svg>
-            </button>
+            </button> */}
 
             {/* Heart Button */}
-            <button className="w-10 h-10 rounded-full bg-white border border-gray-200 flex items-center justify-center shadow-sm">
+            {/* <button className="w-10 h-10 rounded-full bg-white border border-gray-200 flex items-center justify-center shadow-sm">
                 <svg
                     width="26"
                     height="27"
@@ -84,10 +84,10 @@ const EventActions = () => {
                         </filter>
                     </defs>
                 </svg>
-            </button>
+            </button> */}
 
             {/* More Options (3 dots) */}
-            <button className="ml-2">
+            {/* <button className="ml-2">
                 <svg
                     width="4"
                     height="20"
@@ -103,7 +103,7 @@ const EventActions = () => {
                         stroke-linejoin="round"
                     />
                 </svg>
-            </button>
+            </button> */}
         </div>
     );
 };
