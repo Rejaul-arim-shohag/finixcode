@@ -22,7 +22,7 @@ const OtherEventCard: React.FC<EventCardProps> = ({
     image,
     price,
     spotsLeft,
-    level,
+    // level,
     attendees,
     tags,
 }) => {
@@ -36,7 +36,7 @@ const OtherEventCard: React.FC<EventCardProps> = ({
                     objectFit="cover"
                     className="rounded-t-3xl"
                 />
-                <div className="absolute top-3 right-3 text-white bg-black/40 p-1 rounded-full w-6 h-6">
+                <div className="absolute top-3 right-6 text-white  p-1 rounded-full w-6 h-6">
                     <svg
                         width="28"
                         height="25"

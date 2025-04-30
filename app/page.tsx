@@ -1,5 +1,4 @@
 import EventCard from "@/UI/Home/EventCard";
-import OthersEventsSection from "@/UI/Home/OthersEvent";
 import PhotoGrid from "@/UI/Home/PhotoGrid";
 import TabSection from "@/UI/Home/TabSection";
 
@@ -14,7 +13,7 @@ export default function Home() {
                         <TabSection />
                     </div>
                 </div>
-                <OthersEventsSection />
+
             </main>
         </div>
     );

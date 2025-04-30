@@ -2,7 +2,7 @@ import EventActions from "./EventActions";
 
 export default function EventCard() {
     return (
-        <div className="mx-auto  p-4 bg-neutral-50 grid grid-cols-3 gap-4 items-start">
+        <div className="mx-auto  p-4 bg-neutral-50 grid grid-cols-3 gap-4 items-start mt-4">
             {/* Left section - col-span-2 */}
             <div className="col-span-2">
                 <div className="flex justify-between">
@@ -32,7 +32,7 @@ export default function EventCard() {
                     </span>
                 </div>
 
-                <button className="bg-green-400 hover:bg-green-500 text-white w-full py-3 rounded-full font-semibold">
+                <button className="bg-[#63CFA0] hover:bg-green-500 text-white w-full py-3 rounded-full font-semibold">
                     Join event
                 </button>
             </div>

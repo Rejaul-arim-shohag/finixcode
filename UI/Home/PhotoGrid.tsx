@@ -8,7 +8,7 @@ export default function PhotoGrid() {
     return (
         <div className="grid grid-cols-3 gap-2  mx-auto rounded-xl overflow-hidden  p-3 my-4">
             {/* Left large image */}
-            <div className="col-span-2 relative aspect-[3/2]">
+            <div className="col-span-2 relative aspect-[5/2]">
                 <Image
                     src={images[0]}
                     alt="Main photo"
@@ -20,7 +20,7 @@ export default function PhotoGrid() {
             {/* Right two stacked images */}
             <div className="flex flex-col gap-2">
                 {/* Top right */}
-                <div className="relative aspect-[3/2]">
+                <div className="relative aspect-[5/2]">
                     <Image
                         src={images[1]}
                         alt="Secondary photo"
@@ -30,7 +30,7 @@ export default function PhotoGrid() {
                 </div>
 
                 {/* Bottom right with overlay */}
-                <div className="relative aspect-[3/2]">
+                <div className="relative aspect-[5/2]">
                     <Image
                         src={images[2]}
                         alt="More photos"
