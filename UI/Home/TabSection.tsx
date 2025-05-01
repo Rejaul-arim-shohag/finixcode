@@ -18,25 +18,28 @@ export default function TabSection() {
     const [activeTab, setActiveTab] = useState(1);
 
     return (
-        <div className="w-full">
-            {/* Tab Headers */}
-            <div className="flex justify-between">
-                {tabs.map((tab) => (
-                    <button
-                        key={tab.id}
-                        onClick={() => setActiveTab(tab.id)}
-                        className={`flex-1 px-4 py-2 cursor-pointer border-b-2 text-center
+        <div>
+            <div className="grid grid-cols-3 gap-4 items-start px-8 py-4">
+                {/* Tab Headers */}
+                <div className="flex justify-between col-span-2">
+                    {tabs.map((tab) => (
+                        <button
+                            key={tab.id}
+                            onClick={() => setActiveTab(tab.id)}
+                            className={`flex-1 px-4 py-2 cursor-pointer border-b-2 text-center
               ${
                   activeTab === tab.id
                       ? "text-[#DA6049] border-[#DA6049]"
                       : "text-black border-[#E5E5E5]"
               }
             `}
-                    >
-                        {tab.label}
-                    </button>
-                ))}
+                        >
+                            {tab.label}
+                        </button>
+                    ))}
+                </div>
             </div>
+
             {activeTab === 1 && (
                 <>
                     <InformationDetails />
@@ -44,12 +47,6 @@ export default function TabSection() {
                 </>
             )}
             {activeTab === 2 && <Players />}
-            {/* Tab Content */}
-            {/* <div style={{ padding: "20px", border: "1px solid #ccc" }}>
-                {tabs[activeTab].content}
-            </div> */}
-
-            {/* <Players /> */}
         </div>
     );
 }

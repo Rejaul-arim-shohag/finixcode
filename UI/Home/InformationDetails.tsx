@@ -8,16 +8,18 @@ import Divider from "./Diveder";
 
 export default function InformationDetails() {
     return (
-        <>
-            <TagsSection />
-            <Divider />
-            <AboutEvent />
-            <Divider />
-            <LocationSection />
-            <Divider />
-            <GoodToKnow />
-            <Divider />
-            <HostedBy />
-        </>
+        <div className="grid grid-cols-3 px-8 py-4">
+            <div className="col-span-2">
+                <TagsSection />
+                <Divider />
+                <AboutEvent />
+                <Divider />
+                <LocationSection />
+                <Divider />
+                <GoodToKnow />
+                <Divider />
+                <HostedBy />
+            </div>
+        </div>
     );
 }

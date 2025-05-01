@@ -1,6 +1,6 @@
 export default function AboutEvent() {
     return (
-        <section className="">
+        <section className="py-4">
             <h2 className="text-[32px] text-[#171717] font-bold">
                 About this event
             </h2>
@@ -10,8 +10,8 @@ export default function AboutEvent() {
                 kit with urban agriculture experts, before joining Roma the
                 Engineer to get into the nuts and bolts of tomorrow’s high-rise
                 buildings...{" "}
-                <a className="text-blue-600 underline">Read more</a>
             </p>
+            <a className="text-blue-600 underline">Read more</a>
         </section>
     );
 }

@@ -1,6 +1,6 @@
 export default function LocationSection() {
     return (
-        <section className="space-y-2 my-8">
+        <section className="space-y-2 my-8 py-4">
             <h2 className="text-[32px] text-[#171717] font-bold">Location</h2>
             <div className="flex gap-8 items-center mt-4">
                 <div>

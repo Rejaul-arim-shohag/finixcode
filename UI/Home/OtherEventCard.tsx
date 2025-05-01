@@ -179,22 +179,25 @@ const OtherEventCard: React.FC<EventCardProps> = ({
                     {location}
                 </div>
 
-                <div className="flex justify-between items-center pt-2">
-                    <span className="text-sm text-red-600">{spotsLeft}</span>
-                    <div className="flex items-end gap-1 text-gray-900 font-semibold text-lg">
-                        <span className="text-black">৳</span> {price}
-                        <span className="text-sm text-gray-400 font-normal">
-                            /person
-                        </span>
+                <div>
+                    <p className="text-sm text-[#AA3333] text-right">
+                        {spotsLeft}
+                    </p>
+                    <div className="flex justify-between items-center">
+                        <p className="text-sm text-gray-500">
+                            {attendees} attending
+                        </p>
+                        <div className="flex items-end  gap-1 text-gray-900 font-semibold text-lg">
+                            <span className="text-black">৳</span> {price}
+                            <span className="text-sm text-gray-400 font-normal">
+                                /person
+                            </span>
+                        </div>
                     </div>
                 </div>
-
-                <p className="text-sm text-gray-500">{attendees} attending</p>
             </div>
         </div>
     );
 };
 
 export default OtherEventCard;
-
-// components/EventsSection.tsx

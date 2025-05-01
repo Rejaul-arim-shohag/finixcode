@@ -42,7 +42,7 @@ const events: EventCardProps[] = [
 
 const OthersEventsSection: React.FC = () => {
     return (
-        <section className="px-4 py-10 bg-white">
+        <section className="px-8 py-10 bg-white my-12">
             <div className="flex items-center justify-between mb-6">
                 <h2 className="text-2xl font-bold text-purple-900">
                     Other events you may like

@@ -6,7 +6,7 @@ const images = ["/Background1.png", "/Background2.png", "/Background3.png"];
 
 export default function PhotoGrid() {
     return (
-        <div className="grid grid-cols-3 gap-2  mx-auto rounded-xl overflow-hidden  p-3 my-4">
+        <div className="grid grid-cols-3 gap-2  mx-auto rounded-xl overflow-hidden  px-8 my-4">
             {/* Left large image */}
             <div className="col-span-2 relative aspect-[5/2]">
                 <Image

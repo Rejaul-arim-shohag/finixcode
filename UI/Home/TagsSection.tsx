@@ -1,21 +1,21 @@
 export default function TagsSection() {
     return (
-        <div className="flex justify-between my-8">
+        <div className="flex justify-between my-12">
             <div className="flex gap-3">
-                <span className="bg-[#E6F8F8] text-black px-6 py-3 rounded-full text-lg">
+                <span className="bg-[#E6F8F8] text-black px-6 py-2 rounded-full text-lg">
                     Football
                 </span>
-                <span className="bg-blue-100 text-black px-6 py-3 rounded-full text-lg">
+                <span className="bg-blue-100 text-black px-6 py-2 rounded-full text-lg">
                     Relay
                 </span>
-                <span className="bg-[#FFE8F0] text-black px-6 py-3 rounded-full text-lg">
+                <span className="bg-[#FFE8F0] text-black px-6 py-2 rounded-full text-lg">
                     Female
                 </span>
-                <span className="bg-[#EFEDFF] text-black px-6 py-3 rounded-full text-lg">
+                <span className="bg-[#EFEDFF] text-black px-6 py-2 rounded-full text-lg">
                     Age: Below 25
                 </span>
             </div>
-            <div className="flex gap-1 items-center">
+            <div className="flex  items-center">
                 <svg
                     width="27"
                     height="27"
@@ -52,7 +52,7 @@ export default function TagsSection() {
                         fill="#CFFCE8"
                     />
                 </svg>
-                <span className="text-black px-6 py-3 rounded-full text-lg">
+                <span className="text-black px-3 py-2 rounded-full text-lg">
                     Beginner
                 </span>
             </div>

@@ -8,12 +8,7 @@ export default function Home() {
             <main>
                 <PhotoGrid />
                 <EventCard />
-                <div className="mx-auto p-4 bg-neutral-50 grid grid-cols-3 gap-4 items-start min-h-screen">
-                    <div className="col-span-2">
-                        <TabSection />
-                    </div>
-                </div>
-
+                <TabSection />
             </main>
         </div>
     );
