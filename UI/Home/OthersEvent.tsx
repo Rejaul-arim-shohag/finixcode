@@ -59,9 +59,9 @@ const OthersEventsSection: React.FC = () => {
                             <path
                                 d="M7 13.0312L1 7.03125L7 1.03125"
                                 stroke="#4A4A4A"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                             />
                         </svg>
                     </button>
@@ -76,9 +76,9 @@ const OthersEventsSection: React.FC = () => {
                             <path
                                 d="M1 1.03125L7 7.03125L1 13.0312"
                                 stroke="#4A4A4A"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                             />
                         </svg>
                     </button>

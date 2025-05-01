@@ -51,3 +51,13 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans);
 }
+
+.hide-calendar-icon::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  display: none;
+}
+
+.hide-calendar-icon {
+  position: relative;
+  z-index: 2;
+}

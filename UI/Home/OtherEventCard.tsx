@@ -52,8 +52,8 @@ const OtherEventCard: React.FC<EventCardProps> = ({
                             <path
                                 d="M5.03781 3.60654C2.98756 5.65679 2.98756 8.9809 5.03781 11.0312L14.0002 19.9935L22.9624 11.0312C25.0127 8.9809 25.0127 5.65679 22.9624 3.60654C20.9122 1.55628 17.5881 1.55628 15.5378 3.60654L14.0002 5.14429L12.4624 3.60654C10.4122 1.55628 7.08806 1.55628 5.03781 3.60654Z"
                                 stroke="white"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                             />
                         </g>
                         <defs>
@@ -64,10 +64,10 @@ const OtherEventCard: React.FC<EventCardProps> = ({
                                 width="27"
                                 height="23.9246"
                                 filterUnits="userSpaceOnUse"
-                                color-interpolation-filters="sRGB"
+                                colorInterpolationFilters="sRGB"
                             >
                                 <feFlood
-                                    flood-opacity="0"
+                                    floodOpacity="0"
                                     result="BackgroundImageFix"
                                 />
                                 <feColorMatrix

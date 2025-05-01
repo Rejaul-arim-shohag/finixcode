@@ -1,39 +1,23 @@
 "use client";
 
+import CustomDateInput from "@/UI/Home/CustomDateInput";
 import Image from "next/image";
 
 export default function Navbar() {
     return (
         <nav className="flex items-center justify-between p-4 bg-white shadow-sm">
-            {/* Left Section */}
+            <Image src="/logo.png" alt="Medal" width={28} height={28} />
+
             <div className="flex items-center space-x-4">
-                <Image src="/logo.png" alt="Medal" width={28} height={28} />
+                <CustomDateInput />
 
-                {/* Date Picker */}
-                <div className="flex items-center rounded-full shadow px-4 py-2 bg-white">
-                    <input
-                        type="date"
-                        className="outline-none text-sm bg-transparent hide-calendar-icon"
-                        placeholder="Select date"
-                    />
-                    <div className="ml-2 p-1 bg-green-400 rounded-full cursor-pointer">
-                        <Image
-                            src="/calender.svg"
-                            alt="Calendar"
-                            width={20}
-                            height={20}
-                        />
-                    </div>
-                </div>
-
-                {/* Search */}
                 <div className="flex items-center rounded-full shadow px-4 py-2 bg-white">
                     <input
                         type="text"
                         placeholder="Search"
-                        className="outline-none text-sm bg-transparent"
+                        className="outline-none text-sm bg-transparent text-[#6A6A6A]"
                     />
-                    <div className="ml-2 p-1 bg-gray-400 rounded-full">
+                    <div className="ml-2 p-1 bg-[#E5E5E5] rounded-full">
                         <Image
                             src="/search.svg"
                             alt="Search"
@@ -44,7 +28,6 @@ export default function Navbar() {
                 </div>
             </div>
 
-            {/* Right Section */}
             <div className="flex items-center space-x-4">
                 <button className="flex items-center bg-green-100 text-green-900 px-4 py-2 rounded-full text-sm font-medium">
                     <Image

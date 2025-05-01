@@ -13,8 +13,8 @@ const players = [
 }
 export default function Players() {
     return (
-        <main className="min-h-screen bg-cream p-6">
-            <div className="grid grid-cols-3 px-8 py-4">
+        <main className="min-h-screen bg-cream p-8">
+            <div className="grid grid-cols-3 py-4">
                 <div className="col-span-2  space-y-6">
                     {/* Header row */}
                     <div className="w-full flex items-center justify-between">
