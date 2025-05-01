@@ -6,7 +6,8 @@ This project is a frontend assignment for **Finixcode**, built with **Next.js**,
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
+
+1. Clone the Repository
 
 ```bash
 git clone https://github.com/Rejaul-arim-shohag/finixcode.git
