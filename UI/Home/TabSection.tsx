@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Players from "./Players";
 import InformationDetails from "./InformationDetails";
 import OthersEventsSection from "./OthersEvent";
+import ChatList from "./ChatList";
 
 const tabs = [
     { id: 1, label: "Info", content: "Welcome to the Home tab!" },
@@ -39,7 +40,6 @@ export default function TabSection() {
                     ))}
                 </div>
             </div>
-
             {activeTab === 1 && (
                 <>
                     <InformationDetails />
@@ -47,6 +47,7 @@ export default function TabSection() {
                 </>
             )}
             {activeTab === 2 && <Players />}
+            {activeTab === 3 && <ChatList />}
         </div>
     );
 }

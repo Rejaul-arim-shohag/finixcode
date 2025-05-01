@@ -1,4 +1,5 @@
 import EventActions from "./EventActions";
+import JoinNow from "./JoinNow";
 
 export default function EventCard() {
     return (
@@ -32,9 +33,7 @@ export default function EventCard() {
                         </span>
                     </div>
 
-                    <button className="bg-[#63CFA0] hover:bg-green-500 text-white w-full py-3 rounded-full font-semibold">
-                        Join event
-                    </button>
+                    <JoinNow />
                 </div>
             </div>
         </div>
